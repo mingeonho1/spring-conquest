@@ -1,8 +1,10 @@
 package springConquest.core.discount;
 
+import org.springframework.stereotype.Component;
 import springConquest.core.member.Grade;
 import springConquest.core.member.Member;
 
+@Component
 public class RateDiscountPolicy implements DiscountPolicy {
 
     private int discountPercent = 10;
