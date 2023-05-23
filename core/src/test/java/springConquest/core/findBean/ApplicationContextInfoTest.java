@@ -24,6 +24,7 @@ public class ApplicationContextInfoTest {
     void findApplicationBean() {
         String[] beanDefinitionNames = ac.getBeanDefinitionNames();
         for (String beanDefinitionName : beanDefinitionNames) {
+            //beanDefinition : bean의 메타데이터 정보
             BeanDefinition beanDefinition = ac.getBeanDefinition(beanDefinitionName);
 
             //Role ROLE_APPLICATION: 직접 등록한 애플리케이션 빈
