@@ -10,5 +10,6 @@
 - Spring에 대해 자세히 알기
 - 실무에서는 어떻게 사용하는지 배우기
 - 자바에대한 기초, 코틀린에선 어떻게 할지 고민 ( 자바 ➜ 코틀린 )
+- ++JPA 활용
 
 ![image](https://user-images.githubusercontent.com/102270909/234153201-336f0254-8198-42fd-b5b2-5c83cc5139a0.png)
